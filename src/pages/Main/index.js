@@ -4,7 +4,7 @@ import Tabletop from 'tabletop';
 import { Container, BookTable } from './styles';
 
 function Main() {
-  const [books, setBooks] = useState([{}]);
+  const [books, setBooks] = useState([]);
 
   useEffect(async () => {
     Tabletop.init({
@@ -49,18 +49,3 @@ function Main() {
   );
 }
 export default Main;
-
-// <tr>
-// <td>
-//   <img
-//     src="https://images-na.ssl-images-amazon.com/images/I/41q87h8PXtL._SX346_BO1,204,203,200_.jpg"
-//     alt="Livro"
-//   />
-// </td>
-// <td>
-//   <strong>Titulo do livro</strong>
-// </td>
-// <td>Autor do produto</td>
-// <td>4.03</td>
-// <td>R$: 14,00</td>
-// </tr>
