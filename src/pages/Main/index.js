@@ -4,8 +4,10 @@ import Tabletop from 'tabletop';
 import { Container, BookTable } from './styles';
 
 function Main() {
+  // Hook que te permite adicionar o state do React a um componente de função
   const [books, setBooks] = useState([]);
 
+  // Hook utilizado para fazer a busca dos dados no google sheet, fazendo o papel do componentWillMount
   useEffect(async () => {
     Tabletop.init({
       key:
