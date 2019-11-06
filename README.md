@@ -14,7 +14,7 @@ npm i
 
 ## Rodando a aplicação
 
-- Após a instalação , rode o seguinte comando. A aplicação abrirá automaticamente em seu Browser
+- Após a instalação , rode o seguinte comando. A aplicação abrirá em http://localhost:3000/
 
 ```bash
 npm start
