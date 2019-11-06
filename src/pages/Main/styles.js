@@ -19,7 +19,7 @@ export const BookTable = styled.table`
   }
 
   img {
-    height: 300px;
+    height: 200px;
   }
 
   strong {
